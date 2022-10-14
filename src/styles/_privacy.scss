@@ -1,0 +1,33 @@
+.policy-page, .terms-page{
+    padding: 70px 30px;
+
+    .policies{
+        padding-top: 50px;
+    }
+
+    .policy{
+        margin: 80px 0;
+        text-align: center;
+        @include media(576px){
+            text-align: start;
+            max-width: 1000px;
+        }
+        @include media(768px){
+            padding: 0 40px;
+        }
+
+        h3{
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+
+    h5{
+        @include media(768px){
+            padding: 0 40px;
+        }
+    }
+}

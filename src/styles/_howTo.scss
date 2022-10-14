@@ -1,0 +1,57 @@
+.how-to{
+    text-align: center;
+    padding-top: 70px;
+
+    h2{
+        font-weight: bold;
+    }
+
+    .how-container{
+        margin-top: 80px;
+    }
+
+    .content{
+        width: 100%;
+        @include media(992px){
+            max-width: 40%;
+        }
+        @include media(1200px){
+            max-width: 60%;
+        }
+    }
+
+    .how{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+
+        @include media(992px){
+            flex-direction: row;
+            text-align: start;
+            padding: 0 5%;
+            justify-content: space-between;
+        }
+
+        h3{
+            font-weight: bold;
+        }
+        img{
+            width: 90%;
+            margin-top: 20px;
+            box-shadow: 0 0 5px silver;
+            max-height: 150px;
+            @include media(576px){
+                width: 70%;
+                max-width: 400px;
+            }
+        }
+    }
+
+    ol{
+        margin-top: 20px;
+        color: grey;
+        text-align: start;
+    }
+}

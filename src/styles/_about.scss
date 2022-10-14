@@ -1,0 +1,40 @@
+.about{
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(992px){
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 100px 5% 0 5%;
+        text-align: start;
+    }
+
+    h2{
+        font-weight: bold;
+    }
+
+    p{
+        color: grey;
+        margin-top: 15px;
+        text-align: justify;
+    }
+
+    .content{
+        width: 85%;
+        @include media(992px){
+            width: 400px;
+        }
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+        @include media(992px){
+            width: 400px;
+            height: 400px;
+        }
+    }
+}

@@ -1,0 +1,295 @@
+.story-page{
+    padding: 100px 0;
+}
+
+.story-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .ads-container{
+        margin: 10px 0;
+    }
+    
+    // @include media(1100px){
+    //     flex-direction: row;
+    //     justify-content: space-between;
+    //     align-items: flex-start;
+    //     .ads-cont{
+    //         max-width: fit-content;
+    //     }
+    // }
+}
+
+.story-overview{
+    padding: 60px 30px 60px 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 1px silver;
+    width: 90%;
+    margin: 80px 0;
+
+    @include media(768px){
+        padding: 60px 5% 60px 5%;
+    }
+
+    @include media(1100px){
+        // flex-grow: 1;
+        // width: unset;
+        // margin: 10px 30px;
+        margin: 10px 0;
+    }
+
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        @include media(768px){
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .cover-container{
+            margin-top: 60px;
+            max-width: 430px;
+            @include media(768px){
+                margin-top: 0;
+                display: flex;
+                text-align: start;
+                .gx{
+                    margin: 0 20px;
+                }
+            }
+            @include media(1100px){
+                max-width: 450px;
+            }
+
+            img{
+                width: $imgWidth;
+                height: $imgHeight;
+                border-radius: 10px;
+            }
+            h2{
+                font-weight: bold;
+                font-size: 31px;
+                margin: 15px 0 10px 0;
+            }
+
+            h5{
+                color: grey;
+                font-weight: 600;
+            }
+
+            .tags-container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 20px;
+                max-height: 130px;
+                overflow: hidden;
+                position: relative;
+                @include media(768px){
+                    justify-content: flex-start;
+                }
+                .backdrop-layer{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    z-index: 50;
+                    background: linear-gradient(to bottom, transparent, rgba(255, 254, 254, 0.9) 105%);
+                }
+                .tag{
+                    margin: 5px;
+                }
+            }
+
+            .s-m-e{
+                font-size: 14px;
+                color: $primaryColor;
+                cursor: pointer;
+                font-weight: 600;
+            }
+
+            h6{
+                margin-top: 20px;
+                color: grey;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .desc{
+        text-align: center;
+        @include media(768px){
+            text-align: start;
+        }
+    }
+}
+
+
+//styles for author info widget
+.author-container{
+    text-align: start;
+    @include media(768px){
+        margin-top: 30px;
+    }
+
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    h5, h6{
+        margin: 0 10px;
+        font-weight: bold;
+        color: #343a40;
+        transition: 150ms ease-out;
+    }
+
+    .follow-icon{
+        font-size: 14px;
+        transition: 150ms ease-out;
+        cursor: pointer;
+        &:hover, &.active{
+            color: $primaryColor;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        &:hover{
+            h5{
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+
+//table of contents style
+.contents-table{
+    margin-top: 70px;
+
+    .table-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #343a40;
+        padding: 15px 10px;
+    }
+
+    h4{
+        font-weight: bold;
+    }
+
+    .chapters-container{
+        .chapter{
+            padding: 15px 10px;
+            transition: 250ms ease-out;
+
+            &:hover{
+                background: $lightSilver;
+            }
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: #343A40;
+        font-weight: bold;
+        display: block;
+        &:not(:last-child){
+            border-bottom: 1px solid silver;
+        }
+    }
+}
+
+.stats-container{
+    width: 200px;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.report-story{
+
+    padding-top: 100px;
+    text-align: center;
+
+    h2{
+        font-weight: bold;
+    }
+
+    form{
+        width: 300px;
+        margin: 60px auto;
+        @include media(576px){
+            width: 450px;
+        }
+        @include media(992px){
+            width: 550px;
+        }
+
+        button{
+            @include btn($primaryColor);
+            min-width: 80px;
+            padding: 10px;
+        }
+
+        textarea{
+            height: 300px;
+            resize: none;
+        }
+    }
+}
+
+.delete-story{
+    padding-top: 100px;
+    text-align: center;
+
+    form{
+        width: 100%;
+        margin: 30px 0;
+        text-align: center;
+
+        button{
+            @include btn($primaryColor);
+            min-width: 80px;
+        }
+    }
+
+    .story-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    img{
+        width: $imgWidth;
+        height: $imgHeight;
+        border-radius: 10px;
+    }
+
+    h2{
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}
+
+//share container styles
+.share-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    @include media(768px){
+        justify-content: flex-start;
+        padding: 0 20px;
+    }
+}

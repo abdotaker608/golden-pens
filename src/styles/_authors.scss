@@ -1,0 +1,116 @@
+$authorWidth: 200px;
+
+.authors{
+    padding-top: 70px;
+    text-align: center;
+
+    h2{
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .authors-container{
+        margin: 70px auto 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: $authorWidth;
+        @include media(576px){
+            width: $authorWidth * 2 + 4 * 30;
+        }
+        @include media(768px){
+            width: $authorWidth * 3 + 6 * 30;
+        }
+        @include media(1100px){
+            width: $authorWidth * 4 + 8 * 30;
+        }
+        @include media(1300px){
+            width: $authorWidth * 5 + 10 * 30;
+        }
+    }
+
+    form{
+        margin: 70px auto 0 auto;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        input{
+            width: 75%;
+            border-radius: 10px;
+        }
+
+        @include media(576px){
+            width: 450px;
+            input{
+                width: 85%;
+            }
+        }
+
+        button{
+            @include centerIt;
+            background: $primaryColor;
+            border-radius: 50%;
+            color: white;
+            height: 40px;
+            width: 40px;
+            border: none;
+            outline: none;
+            transition: 150ms ease-out;
+            &:hover{
+                background: lighten($primaryColor, 10%);
+            }
+        }
+    }
+}
+
+.author{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    width: $authorWidth;
+
+    @include media(576px){
+        margin: 30px;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 150ms ease-out;
+        filter: drop-shadow(0 0 15px transparent);
+        &:hover{
+            filter: drop-shadow(0 0 15px $primaryColor);
+        }
+    }
+    a{
+        color: #343A40;
+        transition: 150ms ease-out;
+        text-decoration: none;
+        h5{
+            font-weight: 600;
+            max-width: 100%;
+            margin-top: 15px;
+        }
+        &:hover{
+            color: $primaryColor;
+        }
+        &.a-nick{
+            h5{
+                margin-top: 0;
+            }
+        }
+    }
+    button{
+        @include btn($primaryColor);
+        min-width: 100px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

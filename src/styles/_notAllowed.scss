@@ -1,0 +1,24 @@
+.not-allowed{
+    background: darken($lightSilver, 5%);
+    padding: 150px 0;
+
+    .box{
+        margin: 0 auto;
+        text-align: center;
+        width: fit-content;
+        padding: 30px;
+        background: white;
+        border-radius: 20px;
+        max-width: 90%;
+
+        @include media(576px){
+            padding: 30px 80px;
+        }
+
+        button{
+            @include btn($primaryColor);
+            margin-top: 30px;
+            min-width: 80px;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+$primaryColor: rgb(49, 115, 202);
+$greenish: rgb(31, 197, 31);
+$orangish: rgb(250, 195, 57);
+$lightSilver: rgb(248, 246, 246);
+$darkblue: rgb(2, 2, 31);
+$imgWidth: 200px;
+$imgHeight: 250px;
+
+@keyframes pump{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@mixin centerIt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerAbs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin media($px){
+    @media screen and (min-width: $px){
+        @content;
+    }
+}
+
+@mixin btn($background){
+    background: $background;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    transition: 250ms ease-out;
+    cursor: pointer;
+    padding: 10px;
+
+    &:hover{
+        background: lighten($background, 10%);
+    }
+    &:disabled{
+        background: silver;
+        color: #343A30;
+        font-weight: bold;
+        cursor: not-allowed;
+    }
+    &.processing{
+        @include centerIt;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        max-width: 120px;
+        .spinner.spinner-border{
+            display: none;
+            margin: 0 auto;
+            width: 20px;
+            height: 20px;
+            color: white;
+            position: absolute;
+            border-color: white;
+        }
+
+        &:disabled{
+            background: $background;
+            .spinner{
+                display: block;
+            }
+            span{
+                opacity: 0;
+            }
+        }
+    }
+}
+
+@mixin bgImg($url){
+    background: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

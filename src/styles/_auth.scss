@@ -1,0 +1,145 @@
+//signup section
+.signup{
+    text-align: center;
+    @include bgImg('../static/images/singleBg.svg');
+
+    @media screen and (max-width: 991px){
+        background: none !important;
+    }
+    
+    @include media(992px){
+        display: flex;
+        justify-content: space-around;
+        padding: 60px 0;
+        align-items: center;
+    }
+
+    img{
+        width: 320px;
+        @include media(576px){
+            width: 420px;
+        }
+        @include media(1200px){
+            width: 480px;
+        }
+    }
+
+    .social-btn{
+        width: 230px;
+        padding: 5px 10px;
+    }
+
+    form{
+        width: 300px;
+        margin: 50px auto;
+        text-align: start;
+        border-radius: 10px;
+        background: white;
+
+        @include media(576px){
+            width: 420px;
+        }
+        @include media(992px){
+            margin: 50px 0;
+            max-width: 480px;
+            box-shadow: 0 0 10px 2px silver;
+            padding: 20px;
+        }
+        @include media(1200px){
+            max-width: 550px;
+        }
+
+        button{
+            @include btn($primaryColor);
+            width: 80px;
+        }
+    }
+}
+
+//common
+.breaker{
+    position: relative;
+    text-align: center;
+    span:first-child{
+        background: #343A30;
+        height: 1px;
+        @include centerAbs;
+        width: 100%;
+    }
+    span:last-child{
+        background: white;
+        position: relative;
+        z-index: 50;
+        padding: 0 20px;
+        font-weight: bold;
+    }
+}
+
+
+//login section
+.login{
+    text-align: center;
+    margin-top: 100px;
+
+    @include media(992px){
+        @include bgImg('../static/images/loginSmBg.svg');
+        padding: 60px 0;
+    }
+
+    form{
+        width: 300px;
+        background: white;
+        position: relative;
+        z-index: 100;
+        margin: 40px auto;
+        border-radius: 15px;
+        @include media(576px){
+            width: 400px;
+        }
+        @include media(992px){
+            width: 500px;
+            box-shadow: 0 0 10px 2px silver;
+            padding: 30px;
+        }
+        a{
+            color: $primaryColor;
+            text-decoration: none;
+            transition: 250ms ease-out;
+            &:hover{
+                color: crimson;
+            }
+        }
+    }
+
+    button{
+        @include btn($primaryColor);
+        min-width: 80px;
+        width: max-content;
+    }
+
+    .social-btn{
+        width: 230px;
+        padding: 5px 10px;
+    }
+}
+
+.recover-request{
+
+    form{
+        width: 300px;
+        margin: 60px auto;
+        border-radius: 10px;
+        @include media(576px){
+            width: 400px;
+        }
+        @include media(992px){
+            width: 500px;
+            box-shadow: 0 0 10px 2px silver;
+            padding: 30px;
+        }
+        button{
+            @include btn($primaryColor);
+            min-width: 80px;
+        }
+    }
+}

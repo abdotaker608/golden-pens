@@ -1,0 +1,72 @@
+header{
+    text-align: center;
+
+    @include media(768px){
+        display: flex;
+        justify-content: space-around;
+        text-align: start;
+        padding: 0 5%;
+    }
+    @include media(992px){
+        padding: 30px 5% 0 5%;
+    }
+    @include media(1200px){
+    }
+
+    .content{
+        margin-top: 80px;
+
+        h1{
+            font-weight: bolder;
+            color: $primaryColor;
+            font-size: 300%;
+        }
+
+        h5{
+            font-size: 100%;
+            color: grey;
+            margin-top: 15px;
+        }
+
+        @include media(768px){
+            h1{
+                font-size: 350%;
+            }
+            h5{
+                font-size: 120%;
+                margin: 0 8px;
+            }
+        }
+
+        @include media(992px){
+            h1{
+                font-size: 400%;
+            }
+            h5{
+                font-size: 150%;
+                margin: 0 8px;
+            }
+        }
+    }
+
+    img{
+        height: 400px;
+        margin-top: 70px;
+        @include media(768px){
+            height: 450px;
+        }
+        @include media(992px){
+            height: 500px;
+        }
+        @include media(992px){
+            height: 550px;
+        }
+    }
+
+    .btn-container{
+        button{
+            @include btn($primaryColor);
+            margin: 0 10px;
+        }
+    }
+}

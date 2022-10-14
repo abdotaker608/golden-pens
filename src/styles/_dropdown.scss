@@ -1,0 +1,45 @@
+.drop-down{
+    position: relative;
+
+    span{
+        color: rgb(78, 75, 75);
+    }
+
+    .ellp{
+        width: 40px;
+        background: transparent;
+        border-radius: 50%;
+        display: block;
+        cursor: pointer;
+        transition: 250ms ease-out;
+        @include centerIt;
+        height: 40px;
+        &:hover{
+            background: darken($lightSilver, 5%);
+        }
+    }
+    
+    .items-container{
+        position: absolute;
+        width: 200px;
+        box-shadow: 0 0 5px 1px silver;
+        border-radius: 10px;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #343a40;
+        background: white;
+
+        .item{
+            width: 100%;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: #343a40;
+            transition: 150ms ease-out;
+            &:hover{
+                background: darken($lightSilver, 5%);
+            }
+        }
+    }
+}

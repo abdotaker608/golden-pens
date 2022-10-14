@@ -11,7 +11,8 @@ import { clientsClaim } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
 import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
-import { StaleWhileRevalidate } from 'workbox-strategies';
+import { StaleWhileRevalidate, NetworkFirst } from 'workbox-strategies';
+import { endpoint } from './API';
 
 clientsClaim();
 
@@ -50,13 +51,13 @@ registerRoute(
 // precache, in this case same-origin .png requests like those from in public/
 registerRoute(
   // Add in any other file extensions or routing criteria as needed.
-  ({ url }) => url.origin === self.location.origin && url.pathname.endsWith('.png'), // Customize this strategy as needed, e.g., by changing to CacheFirst.
+  ({ url }) => url.pathname.toLowerCase().endsWith('.png') || url.pathname.toLowerCase().endsWith('.svg') || url.pathname.toLowerCase().endsWith('.jpg') || url.pathname.toLowerCase().endsWith('.jpeg') || url.pathname.startsWith('/platform'), // Customize this strategy as needed, e.g., by changing to CacheFirst.
   new StaleWhileRevalidate({
     cacheName: 'images',
     plugins: [
       // Ensure that once this runtime cache reaches a maximum size the
       // least-recently used images are removed.
-      new ExpirationPlugin({ maxEntries: 50 }),
+      new ExpirationPlugin({ maxEntries: 800 }),
     ],
   })
 );
@@ -70,3 +71,27 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+//Intercepting fetch calls
+
+// REST API Calls
+registerRoute(
+  ({url}) => url.href.startsWith(endpoint),
+  new NetworkFirst({
+    cacheName: 'v1',
+    plugins: [
+      new ExpirationPlugin({maxEntries: 1200})
+    ]
+  })
+)
+
+//Assets
+registerRoute(
+  ({url}) => url.hostname.match(/fonts.googleapis.com|kit.fontawesome.com|fonts.gstatic.com|ka-f.fontawesome.com|tiny/),
+  new StaleWhileRevalidate({
+    cacheName: 'assets_v1',
+    plugins: [
+      new ExpirationPlugin({maxEntries: 200})
+    ]
+  })
+)

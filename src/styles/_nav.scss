@@ -1,0 +1,118 @@
+nav{
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    img{
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.mob-nav{
+    display: flex;
+
+    @include media(992px){
+        display: none;
+        pointer-events: none;
+    }
+
+    .burger-icon{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        cursor: pointer;
+
+        span{
+            height: 4px;
+            display: block;
+            position: absolute;
+            width: 100%;
+            background: $primaryColor;
+            border-radius: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            &:first-child{
+                transform: translateY(-300%);
+                transition: 250ms ease-out;
+            }
+            &:last-child{
+                transform: translateY(200%);
+                transition: 250ms ease-out;
+            }
+        }
+    }
+
+    .side-menu{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: $primaryColor;
+        top: 107px;
+        z-index: 500;
+
+        a{
+            padding: 15px;
+            color: white;
+            text-transform: capitalize;
+            text-decoration: none;
+            transition: 150ms ease-out;
+
+            &:not(:last-child){
+                border-bottom: 1px solid white;
+            }
+
+            &:hover{
+                background: lighten($primaryColor, 10%);
+            }
+        }
+    }
+}
+
+.pc-nav{
+    display: none;
+    pointer-events: none;
+
+    @include media(992px){
+        pointer-events: all;
+        display: flex;
+    }
+
+    a{
+        margin: 0 6px;
+        color: black;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: 150ms ease-out;
+        font-size: 14px;
+
+        &:hover{
+            color: $primaryColor;
+        }
+        @include media(1100px){
+            margin: 0 10px;
+        }
+        @include media(1200px){
+            margin: 0 15px;
+        }
+    }
+
+    .auth-links{
+
+        button{
+            @include btn(white);
+            padding: 10px 12px;
+            &:hover{
+                filter: brightness(120%);
+            }
+        }
+        
+        a{
+            margin: 0 5px;
+            @include media(1100px){
+                margin: 0 10px;
+            }
+        }
+    }
+}

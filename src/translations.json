@@ -1,0 +1,754 @@
+{
+    "golden_pens": {
+        "en": "Golden Pens",
+        "ar": "الأقلام الذهبية"
+    },
+    "home": {
+        "en": "Home",
+        "ar": "الرئيسية"
+    },
+    "about": {
+        "en": "About Us",
+        "ar": "معلومات عنا"
+    },
+    "exhibition": {
+        "en": "The Exhibition",
+        "ar": "المعرض"
+    },
+    "authors": {
+        "en": "Authors",
+        "ar": "المؤلفون"
+    },
+    "contact": {
+        "en": "Contact Us",
+        "ar": "تواصل معنا"
+    },
+    "login": {
+        "en": "Login",
+        "ar": "تسجيل الدخول"
+    },
+    "dashboard": {
+        "en": "Dashboard",
+        "ar": "لوحة القيادة"
+    },
+    "settings": {
+        "en": "Settings",
+        "ar": "الإعدادات"
+    },
+    "profile": {
+        "en": "Profile",
+        "ar": "الملف الشخصي"
+    },
+    "signup": {
+        "en": "Signup",
+        "ar": "التسجيل"
+    },
+    "logout": {
+        "en": "Logout",
+        "ar": "تسجيل الخروج"
+    },
+    "enjoy": {
+        "en": "Your place to read, write and ENJOY!",
+        "ar": "مكانك للقراءة والكتابة والاستمتاع!"
+    },
+    "reader_ask": {
+        "en": "Are you a reader?",
+        "ar": "هل انت قارئ؟"
+    },
+    "writer_ask": {
+        "en": "Are you a writer?",
+        "ar": "هل انت كاتب؟"
+    },
+    "join": {
+        "en": "Join our community",
+        "ar": "انضم إلى مجتمعنا"
+    },
+    "join_paragraph": {
+        "en": "We have a huge network that gathers many wonderful and talented writers who write in a variety of fields. Joins us now and start reading!",
+        "ar": "لدينا شبكة ضخمة تجمع العديد من الكتاب الرائعين والموهوبين الذين يكتبون في مجالات متنوعة. انضم إلينا الآن وابدأ القراءة!"
+    },
+    "join_exc": {
+        "en": "Join Us Now!",
+        "ar": "انضم إلينا الآن!"
+    },
+    "all-in-one": {
+        "en": "All in one",
+        "ar": "الكل فى مكان واحد"
+    },
+    "all-in-one_paragraph": {
+        "en": "Find all the kinds of stories and tales you love here. Myth, Action, Horror, Romantic and much more, Just written for you!",
+        "ar": "اكتشف جميع أنواع القصص والحكايات التي تحبها هنا. أسطورة ، أكشن ، رعب ، رومانسي وغير ذلك الكثير ، كتبت من أجلك!"
+    },
+    "our-app": {
+        "en": "Our web app is progressive!",
+        "ar": "تطبيق الويب الخاص بنا تقدمي!"
+    },
+    "install": {
+        "en": "Install the app on your mobile, PC, etc...",
+        "ar": "قم بتثبيت التطبيق على هاتفك المحمول ، جهاز الكمبيوتر ، إلخ ..."
+    },
+    "use_offline": {
+        "en": "Launch it anytime anywhere even when you are offline!",
+        "ar": "قم بتشغيله في أي وقت وفي أي مكان حتى عندما تكون غير متصل بالإنترنت!"
+    },
+    "read_saved": {
+        "en": "Enjoy reading your favorite and saved stories!",
+        "ar": "استمتع بقراءة قصصك المفضلة والمحفوظة!"
+    },
+    "policy": {
+        "en": "Privacy & Policy",
+        "ar": "الخصوصية والسياسة"
+    },
+    "terms": {
+        "en": "Terms & Conditions",
+        "ar": "الأحكام والشروط"
+    },
+    "faq": {
+        "en": "FAQ",
+        "ar": "أسئلة مكررة"
+    },
+    "how": {
+        "en": "How To(s)",
+        "ar": "كيفيه الاستخدام"
+    },
+    "become_author_title": {
+        "en": "Becoming an author",
+        "ar": "أن تصبح مؤلفًا"
+    },
+    "become_author_paragraph": {
+        "en": "By publishing your first story you officially become an author at Golden Pens. Pretty simple, huh? Create your account and ..",
+        "ar": "بنشر قصتك الأولى ، تصبح مؤلفًا رسميًا في الأقلام الذهبية. بسيط جدا ، أليس كذلك؟ أنشئ حسابك و .."
+    },
+    "start_writing": {
+        "en": "Start Writing",
+        "ar": "ابدأ الكتابة"
+    },
+    "easy_use_title": {
+        "en": "Easy to use",
+        "ar": "سهل الاستخدام"
+    },
+    "easy_use_paragraph": {
+        "en": "You are only a few steps away from your first published story. Just pick a title, Set the tags and start writing, A bunch of readers are waiting for your great stories!",
+        "ar": "أنت على بعد خطوات قليلة من أول قصة منشورة لك. ما عليك سوى اختيار عنوان ، و تعيين العلامات والبدء في الكتابة ، هناك مجموعة من القراء في انتظار قصصك الرائعة!"
+    },
+    "firstname": {
+        "en": "First Name",
+        "ar": "الأسم الأول"
+    },
+    "lastname": {
+        "en": "Last Name",
+        "ar": "الأسم الأخير"
+    },
+    "email": {
+        "en": "Email Address",
+        "ar": "عنوان البريد الكتروني"
+    },
+    "password": {
+        "en": "Password",
+        "ar": "كلمة السر"
+    },
+    "confirmPassword": {
+        "en": "Confirm Password",
+        "ar": "تأكيد كلمة السر"
+    },
+    "required": {
+        "en": "This field is required!",
+        "ar": "هذه الخانة مطلوبه!"
+    },
+    "invalidEmail": {
+        "en": "Please enter a valid email address!",
+        "ar": "من فضلك أدخل بريد إليكتروني صالح!"
+    },
+    "invalidPassword": {
+        "en": "Password must be between 8 to 20 characters!",
+        "ar": "يجب أن تكون كلمة المرور بين 8 إلى 20 حرفًا!"
+    },
+    "passwordMisMatch": {
+        "en": "Passwords don't match",
+        "ar": "كلمات المرور غير متطابقة"
+    },
+    "submit": {
+        "en": "Submit",
+        "ar": "إرسال"
+    },
+    "fbLogin": {
+        "en": "Login With Facebook",
+        "ar": "تسجيل الدخول بفيسبوك"
+    },
+    "fbSignup": {
+        "en": "Signup With Facebook",
+        "ar": "التسجيل بحساب فيسبوك"
+    },
+    "or": {
+        "en": "OR",
+        "ar": "أو"
+    },
+    "userCreated": {
+        "en": "All set, Please verify your email address.",
+        "ar": "كل شيء جاهز ، يرجى التحقق من عنوان بريدك الإلكتروني."
+    },
+    "emailExists": {
+        "en": "This email address already exists!",
+        "ar": "عنوان البريد الإلكتروني هذا موجود بالفعل!"
+    },
+    "wentWrong": {
+        "en": "Something went wrong...",
+        "ar": "حدث خطأ ما..."
+    },
+    "invalidCredits": {
+        "en": "Invalid credentials!",
+        "ar": "بيانات الاعتماد غير صالحة!"
+    },
+    "verifyRequired": {
+        "en": "You need to verify your email address!",
+        "ar": "تحتاج إلى التحقق من عنوان بريدك الإلكتروني!"
+    },
+    "suspended": {
+        "en": "Your account is permanently suspended. If you think this is a mistake please contact us!",
+        "ar": "تم تعليق حسابك بشكل دائم. إذا كنت تعتقد أن هذا خطأ يرجى الاتصال بنا!"
+    },
+    "doneVerify": {
+        "en": "Verified successfully, Redirecting you...",
+        "ar": "تم التحقق بنجاح ،جارى إعادة توجيهك ..."
+    },
+    "invalidToken": {
+        "en": "Invalid or expired token!",
+        "ar": "رمز غير صالح أو منتهي الصلاحية!"
+    },
+    "processVerify": {
+        "en": "Verifying your email, Please wait...",
+        "ar": "التحقق من بريدك الإلكتروني ، يرجى الانتظار ..."
+    },
+    "throttled": {
+        "en": "Login limit exceeded, Try again in an hour!",
+        "ar": "تجاوز حد تسجيل الدخول ، حاول مرة أخرى في غضون ساعة!"
+    },
+    "forgotPasswordAsk": {
+        "en": "Forgot your password?",
+        "ar": "هل نسيت كلمة السر؟"
+    },
+    "recoverPassword": {
+        "en": "Recover your password",
+        "ar": "استعادة كلمة المرور الخاصة بك"
+    },
+    "resetPassword": {
+        "en": "Reset your password",
+        "ar": "اعد ضبط كلمه السر"
+    },
+    "recoverPasswordSent": {
+        "en": "We've sent a reset request to your email address!",
+        "ar": "لقد أرسلنا طلب إعادة تعيين إلى عنوان بريدك الإلكتروني!"
+    },
+    "emailNotExist": {
+        "en": "Sorry, We don't recognise this email..",
+        "ar": "عذرا ، لم نتعرف على هذا البريد الإلكتروني .."
+    },
+    "waitResetAllow": {
+        "en": "You need to wait 24 hours before resetting your password again!",
+        "ar": "أنت بحاجة إلى الانتظار لمدة 24 ساعة قبل إعادة تعيين كلمة المرور الخاصة بك مرة أخرى!"
+    },
+    "doneReset": {
+        "en": "Reset successfully, Redirecting you...",
+        "ar": "تمت إعادة التعيين بنجاح ، جارٍ إعادة توجيهك ..."
+    },
+    "info": {
+        "en": "Information",
+        "ar": "المعلومات"
+    },
+    "security": {
+        "en": "Security",
+        "ar": "الأمان"
+    },
+    "author": {
+        "en": "Author",
+        "ar": "المؤلف"
+    },
+    "save": {
+        "en": "Save",
+        "ar": "حفظ"
+    },
+    "saved": {
+        "en": "Saved!",
+        "ar": "تم الحفظ"
+    },
+    "enterValidLink": {
+        "en": "Please enter a valid URL",
+        "ar": "أدخل رابط صحيح من فضلك"
+    },
+    "nickname": {
+        "en": "Nickname",
+        "ar": "اسم الشهرة"
+    },
+    "fbLink": {
+        "en": "Facebook Profile or Page Link",
+        "ar": "رابط الملف الشخصى او الصفحه بفيسبوك"
+    },
+    "instaLink": {
+        "en": "Instagram Profile Link",
+        "ar": "رابط الملف الشخصى بانستجرام"
+    },
+    "twitterLink": {
+        "en": "Twitter Profile or Page Link",
+        "ar": "رابط الملف الشخصى بتويتر"
+    },
+    "currentPassword": {
+        "en": "Current Password",
+        "ar": "كلمة السر الحالية"
+    },
+    "newPassword": {
+        "en": "New Password",
+        "ar": "كلمة السر الجديدة"
+    },
+    "incorrectPassword": {
+        "en": "Incorrect password!",
+        "ar": "كلمة السر غير صحيحة!"
+    },
+    "loginRequired": {
+        "en": "You have to login to see this page",
+        "ar": "يجب عليك تسجيل الدخول لرؤية هذه الصفحة"
+    },
+    "storyCover": {
+        "en": "Story Cover",
+        "ar": "غلاف القصة"
+    },
+    "dropInstruct": {
+        "en": "Click to browse or drop the file here",
+        "ar": "انقر للتصفح أو أسقط الملف هنا"
+    },
+    "unsupportedType": {
+        "en": "You can only upload JPEG and PNG images",
+        "ar": "يمكنك فقط تحميل صور JPEG و PNG"
+    },
+    "largeFile": {
+        "en": "File size must not exceed 2mb",
+        "ar": "يجب ألا يتجاوز حجم الملف 2 ميغا بايت"
+    },
+    "multipleFilesDenied": {
+        "en": "You can only upload 1 file at a time",
+        "ar": "يمكنك فقط تحميل ملف واحد في كل مرة"
+    },
+    "title": {
+        "en": "Title",
+        "ar": "العنوان"
+    },
+    "plot": {
+        "en": "Main Category",
+        "ar": "الفئة الرئيسية"
+    },
+    "tags": {
+        "en": "Tags (Up to 30)",
+        "ar": "علامات (حتى 30)"
+    },
+    "description": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "tagsTip": {
+        "en": "Custom tags enhance the chance of your story appearance in searches.",
+        "ar": "تعمل العلامات المخصصة على تعزيز فرصة ظهور قصتك في عمليات البحث."
+    },
+    "descTip": {
+        "en": "Describe briefly what your story is and what it is about.",
+        "ar": "صف بإيجاز ما هي قصتك وما الذي تتحدث عنه."
+    },
+    "plotTip": {
+        "en": "See what the main categories of any story are here.",
+        "ar": "تعرف على الفئات الرئيسية لأي قصة هنا."
+    },
+    "?": {
+        "en": "?",
+        "ar": "؟"
+    },
+    "publish": {
+        "en": "Publish",
+        "ar": "نشر"
+    },
+    "coverRequired": {
+        "en": "Your story must have a cover!",
+        "ar": "يجب أن يكون لقصتك غلاف!"
+    },
+    "failFetch": {
+        "en": "Couldn't load the data",
+        "ar": "تعذر تحميل البيانات"
+    },
+    "tableOfContents": {
+        "en": "Table of Contents",
+        "ar": "جدول المحتويات"
+    },
+    "newChapter": {
+        "en": "New Chapter",
+        "ar": "فصل جديد"
+    },
+    "editStory": {
+        "en": "Edit Story",
+        "ar": "تعديل القصة"
+    },
+    "deleteStory": {
+        "en": "Delete Story",
+        "ar": "مسح القصة"
+    },
+    "report": {
+        "en": "Report",
+        "ar": "إبلاغ"
+    },
+    "noDesc": {
+        "en": "No content available.",
+        "ar": "لا يوجد محتوى متاح."
+    },
+    "originalSource": {
+        "en": "Original Source",
+        "ar": "المصدر الأصلى"
+    },
+    "additionalNotes": {
+        "en": "Additional Notes",
+        "ar": "ملاحظات إضافية"
+    },
+    "reportReceive": {
+        "en": "We've received your ticket and will contact you soon!",
+        "ar": "لقد تلقينا تذكرتك وسنتواصل معك قريبًا!"
+    },
+    "seeMore": {
+        "en": "See More",
+        "ar": "عرض المزيد"
+    },
+    "pub": {
+        "en": "Published",
+        "ar": "نشرت"
+    },
+    "deleted": {
+        "en": "Successfully deleted!",
+        "ar": "تم المسح بنجاح!"
+    },
+    "confirm": {
+        "en": "Confirm",
+        "ar": "تأكيد"
+    },
+    "aboutDelete": {
+        "en": "You are about to delete this story!",
+        "ar": "أنت على وشك حذف هذه القصة!"
+    },
+    "startWriting": {
+        "en": "Start Writing...",
+        "ar": "ابدأ الكتابة..."
+    },
+    "noContent": {
+        "en": "You can't publish an empty content!",
+        "ar": "لا يمكنك نشر محتوى فارغ!"
+    },
+    "nameExists": {
+        "en": "This nickname is used by another author.",
+        "ar": "يستخدم هذا اللقب من قبل مؤلف آخر."
+    },
+    "next": {
+        "en": "Next",
+        "ar": "التالى"
+    },
+    "prev": {
+        "en": "Previous",
+        "ar": "السابق"
+    },
+    "delete": {
+        "en": "Delete",
+        "ar": "مسح"
+    },
+    "edit": {
+        "en": "Edit",
+        "ar": "تعديل"
+    },
+    "aboutDeleteC": {
+        "en": "You are about to delete this chapter!",
+        "ar": "أنت على وشك حذف هذا الفصل!"
+    },
+    "leaveReply": {
+        "en": "Leave a Comment",
+        "ar": "اترك تعليقا"
+    },
+    "post": {
+        "en": "Post",
+        "ar": "نشر"
+    },
+    "cancel": {
+        "en": "Cancel",
+        "ar": "إلغاء"
+    },
+    "search": {
+        "en": "Search here...",
+        "ar": "ابحث هنا..."
+    },
+    "sortBy": {
+        "en": "Sort by",
+        "ar": "ترتيب حسب"
+    },
+    "latest": {
+        "en": "Latest",
+        "ar": "الأحدث"
+    },
+    "relevance": {
+        "en": "Relevance",
+        "ar": "الملائمة"
+    },
+    "trending": {
+        "en": "Trending",
+        "ar": "الشائع"
+    },
+    "mostRead": {
+        "en": "Most Read",
+        "ar": "الأكثر قراءة"
+    },
+    "filterCat": {
+        "en": "Filter By Category",
+        "ar": "تصفية حسب الفئة"
+    },
+    "filterSubCat": {
+        "en": "Filter By Subcategory",
+        "ar": "تصفية حسب الفئة الفرعية"
+    },
+    "action": {
+        "en": "Action",
+        "ar": "أكشن"
+    },
+    "adventure": {
+        "en": "Adventure",
+        "ar": "مغامرة"
+    },
+    "horror": {
+        "en": "Horror",
+        "ar": "رعب"
+    },
+    "romantic": {
+        "en": "Romantic",
+        "ar": "رومانسى"
+    },
+    "myth": {
+        "en": "Myths & Legends",
+        "ar": "الخرافات والأساطير"
+    },
+    "scienceFiction": {
+        "en": "Science Fiction",
+        "ar": "الخيال العلمي"
+    },
+    "thrill": {
+        "en": "Thrill",
+        "ar": "التشويق"
+    },
+    "all": {
+        "en": "All",
+        "ar": "الكل"
+    },
+    "noMatch": {
+        "en": "No stories seem to match these criteria",
+        "ar": "لا يبدو أن هناك قصص تطابق هذه المعايير"
+    },
+    "by": {
+        "en": "By",
+        "ar": "بواسطة"
+    },
+    "welcome": {
+        "en": "Welcome back,",
+        "ar": "مرحبا بعودتك،"
+    },
+    "newStory": {
+        "en": "New Story",
+        "ar": "قصة جديدة"
+    },
+    "savedStories": {
+        "en": "Saved Stories",
+        "ar": "القصص المحفوظة"
+    },
+    "noEntry": {
+        "en": "No stories available!",
+        "ar": "لا توجد قصص متاحة!"
+    },
+    "yourStories": {
+        "en": "Your Stories",
+        "ar": "قصصك"
+    },
+    "seeAll": {
+        "en": "See All",
+        "ar": "عرض الكل"
+    },
+    "following": {
+        "en": "Who You Are Following",
+        "ar": "من تتابعهم"
+    },
+    "other": {
+        "en": "Other",
+        "ar": "آخر"
+    },
+    "onF": {
+        "en": "Only Following",
+        "ar": "من تتابعهم فقط"
+    },
+    "gpAuthors": {
+        "en": "Authors at golden pens",
+        "ar": "المؤلفون في الأقلام الذهبية"
+    },
+    "noMatchFound": {
+        "en": "No matches found..",
+        "ar": "لم يتم العثور على تطابق.."
+    },
+    "aboutP1": {
+        "en": "Golden Pens is a free and easy to use platform built for all the people interested in reading or writing stories, novels, tales, etc...",
+        "ar": "الأقلام الذهبية هي منصة مجانية و سهلة الاستخدام مصممة لجميع الأشخاص المهتمين بقراءة أو كتابة القصص والروايات والحكايات ، إلخ ..."
+    },
+    "aboutP2": {
+        "en": "It was built for offline usage also to allow people to save and read their favourite stories without the need to conenct to internet.",
+        "ar": "تم تصميمها للاستخدام في وضع عدم الاتصال أيضًا للسماح للأشخاص بحفظ وقراءة قصصهم المفضلة دون الحاجة إلى الاتصال بالإنترنت."
+    },
+    "follow": {
+        "en": "Follow",
+        "ar": "متابعة"
+    },
+    "dropHere": {
+        "en": "Drop here..",
+        "ar": "أفلت هنا .."
+    },
+    "personalInfo": {
+        "en": "Personal Information",
+        "ar": "المعلومات الشخصية"
+    },
+    "personalInfoDesc": {
+        "en": "Golden Pens collects some personal information from you, The information you provide us with is your name, email address to create your account on GP, and your nickname and social media links so that other users can search for your stories and reach you on social media, and your picture so that users can view it on your profile, and finally the infromation which we collect from you is your IP address which is required for some features at GP to run smoothly such as loving stories.",
+        "ar": "تجمع الأقلام الذهبية بعض المعلومات الشخصية منك ، والمعلومات التي تزودنا بها هي اسمك وعنوان بريدك الإلكتروني لإنشاء حسابك على GP ، واسمك المستعار وروابط الوسائط الاجتماعية حتى يتمكن المستخدمون الآخرون من البحث عن قصصك والوصول إليك على وسائل التواصل الاجتماعي ، وصورتك حتى يتمكن المستخدمون من مشاهدتها في ملفك الشخصي ، وأخيرًا المعلومات التي نجمعها منك هي عنوان IP الخاص بك وهو مطلوب لبعض الميزات في GP لتعمل بسلاسة مثل القصص المحببة."
+    },
+    "third-party": {
+        "en": "Third-Party Providers",
+        "ar": "موفرو الطرف الثالث"
+    },
+    "tpDesc": {
+        "en": "If you use facebook to signup at GP, it sends us your profile picture and the necessary infromation to complete the signup process which is your name and email address.",
+        "ar": "إذا كنت تستخدم فيسبوك للتسجيل في GP ، فإنه يرسل لنا صورة ملفك الشخصي والمعلومات اللازمة لإكمال عملية التسجيل وهي اسمك وعنوان بريدك الإلكتروني."
+    },
+    "socialPresence": {
+        "en": "Social Presence",
+        "ar": "الحضور الاجتماعي"
+    },
+    "spDesc": {
+        "en": "You can add your social meia profile links so that your fans, followers, or even people that would want to reach you for business purposes be able to contact you, However. we are not responsible for any conversations or actions that happens outside our site. You are fully responsible of the people you are dealing with.",
+        "ar": "يمكنك إضافة روابط ملف تعريفك على مواقع التواصل الاجتماعي حتى يتمكن المعجبون أو المتابعون أو حتى الأشخاص الذين يرغبون في الوصول إليك لأغراض تجارية من الاتصال بك. نحن لسنا مسؤولين عن أي محادثات أو أفعال تحدث خارج موقعنا. أنت مسؤول مسؤولية كاملة عن الأشخاص الذين تتعامل معهم."
+    },
+    "servingADS": {
+        "en": "Serving Ads",
+        "ar": "خدمة الإعلانات"
+    },
+    "ADSDesc": {
+        "en": "We provide our services for 100% free, and to be able to do so, we use ADS provided by Google AdSense. This doesn't share or sell your infromation to no one. It just uses the infromation it collects to view more appropriate Ads for you and helps us providing this service totally free.",
+        "ar": "نقدم خدماتنا مجانًا بنسبة 100٪ ، ولكي نتمكن من القيام بذلك ، نستخدم الإعلانات التي يوفرها Google AdSense. هذا لا يشارك أو يبيع معلوماتك لأحد. إنها تستخدم فقط المعلومات التي تجمعها لعرض إعلانات أكثر ملاءمة لك وتساعدنا في توفير هذه الخدمة مجانًا تمامًا."
+    },
+    "copyright": {
+        "en": "Copyright Infringement",
+        "ar": "انتهاك حقوق الملكية"
+    },
+    "crDesc": {
+        "en": "We always protect your work from infringement, copying, and stealing even outside of GP by providing an option for authors to report the suspicious story. We receive these reports and take actions immediately if we found out that the story's been stolen or copied from the original source provided in the report, However. if the story was found out to be clean that might result in a penalty for the reporter, so only report when you are totally sure that the suspicious story's been copied or stolen from you.",
+        "ar": "نحن دائمًا نحمي عملك من التعدي والنسخ والسرقة حتى خارج GP من خلال توفير خيار للمؤلفين للإبلاغ عن القصة المشبوهة. نتلقى هذه الإبلاغات ونتخذ الإجراءات فورًا إذا اكتشفنا أن القصة قد تمت سرقتها أو نسخها من المصدر الأصلي الوارد في الإبلاغ ، ولكن. إذا تم اكتشاف أن القصة نظيفة فقد يؤدي ذلك إلى عقوبة للذى قام بالإبلاغ ، لذلك لا تقم بالإبلاغ إلا عندما تكون متأكدًا تمامًا من نسخ القصة المشبوهة منك أو سرقتها."
+    },
+    "deleteAcc": {
+        "en": "Deleting Your Account",
+        "ar": "مسح حسابك"
+    },
+    "daDesc": {
+        "en": "By deleting your account, All of your data and personal information are instantly removed from our databases including these collected from third-party providers during your signup using facebook.",
+        "ar": "بحذف حسابك ، تتم إزالة جميع بياناتك ومعلوماتك الشخصية على الفور من قواعد بياناتنا بما في ذلك تلك التي تم جمعها من مزودي الطرف الثالث أثناء التسجيل باستخدام فيسبوك."
+    },
+    "sexual": {
+        "en": "Sexual Content",
+        "ar": "محتوى جنسى"
+    },
+    "sexualDesc": {
+        "en": "Sexual content and harrasment are not permitted. You can't include any sexual content in your stories' titles and contents, comments, your name and nickname or anywhere at GP. Also you cannot include any pornographic at your profile picture or cover.",
+        "ar": "المحتوى الجنسي والتحرش غير مسموح بهما. لا يمكنك تضمين أي محتوى جنسي في عناوين قصصك ومحتوياتها وتعليقاتك واسمك ولقبك أو في أي مكان في GP. كما لا يمكنك تضمين أي مواد إباحية في صورة ملفك الشخصي أو غلافك."
+    },
+    "violence": {
+        "en": "Violence & Racism",
+        "ar": "العنف والعنصرية"
+    },
+    "vDesc": {
+        "en": "Violence, racism, and bullying are not allowed. Your stories' titles and contents, and your name and nickname must not be racist at all. Also you cannot be violent to or bully any one in the comments.",
+        "ar": "لا يُسمح بالعنف والعنصرية والتنمر. يجب ألا يكون عنوان قصصك ومحتوياتها واسمك ولقبك عنصريين على الإطلاق. كما لا يمكنك أن تكون عنيفًا أو تتنمر على أي شخص في التعليقات."
+    },
+    "promo": {
+        "en": "Promotions & Marketing",
+        "ar": "الترقيات والتسويق"
+    },
+    "promoDesc": {
+        "en": "You can't use this platform for promoting your self or your product. A story is a story and it can't be anything else.",
+        "ar": "لا يمكنك استخدام هذه المنصة للترويج لنفسك أو لمنتجك. القصة هي قصة ولا يمكن أن تكون أي شيء آخر."
+    },
+    "crTDesc": {
+        "en": "You are not allowed to copy somebody else's work at all. We are strict at this point and once it's found out, your copied work will be removed and you will be permenantely banned from accessing GP.",
+        "ar": "لا يُسمح لك بنسخ عمل شخص آخر على الإطلاق. نحن صارمون في هذه المرحلة وبمجرد اكتشاف ذلك ، ستتم إزالة عملك المنسوخ وسيتم منعك نهائيًا من الوصول إلى GP."
+    },
+    "spam": {
+        "en": "Spam",
+        "ar": "Spam"
+    },
+    "spamDesc": {
+        "en": "Spam is not allowed in comments and it is not allowed to post many stories with empty or useless content.",
+        "ar": "لا يُسمح بال spam فى التعليقات كما أنه من غير المسموح بنشر العديد من القصص ذو المحتوى الفارغ او الغير مفيد."
+    },
+    "ambiguity": {
+        "en": "Ambiguity",
+        "ar": "الغموض"
+    },
+    "ambDesc": {
+        "en": "Sending ambiguous links such as, virus links or links to ambiguous softwares and cracks is forbidden. You can't include any ambiguous links in the comments or in your stories.",
+        "ar": "يُحظر إرسال روابط غامضة مثل روابط الفيروسات أو روابط إلى برامج وثغرات غامضة. لا يمكنك تضمين أي روابط غامضة في التعليقات أو في قصصك."
+    },
+    "noteBan": {
+        "en": "Please note that violating any of the terms above may result in a permanent suspension to your account.",
+        "ar": "يرجى ملاحظة أن انتهاك أي من الشروط المذكورة أعلاه قد يؤدي إلى تعليق دائم لحسابك."
+    },
+    "delAcc": {
+        "en": "Delete your account",
+        "ar": "قم بمسح حسابك"
+    },
+    "confirmDel": {
+        "en": "Are you sure you want to permanently delete your account?",
+        "ar": "هل أنت متأكد أنك تريد حذف حسابك بشكل دائم؟"
+    },
+    "reportStory": {
+        "en": "Reporting a Story",
+        "ar": "الإبلاغ عن قصة"
+    },
+    "reportStoryS1": {
+        "en": "Go to the suspicious story's page.",
+        "ar": "اذهب إلى صفحة القصة المشبوهة."
+    },
+    "reportStoryS2": {
+        "en": "Click on the three dots at the top of the table of contents and hit Report.",
+        "ar": "انقر على النقاط الثلاث أعلى جدول المحتويات واضغط على إبلاغ."
+    },
+    "reportStoryS3": {
+        "en": "Provide the original source of the copied story, add your comments, and hit Submit.",
+        "ar": "قدم المصدر الأصلي للقصة المنسوخة ، وأضف تعليقاتك ، واضغط على إرسال."
+    },
+    "saving": {
+        "en": "Saving your story...",
+        "ar": "جارى حفظ قصتك..."
+    },
+    "remove": {
+        "en": "Remove",
+        "ar": "إزالة"
+    },
+    "installApp": {
+        "en": "Installing The App",
+        "ar": "تثبيت التطبيق"
+    },
+    "installS1": {
+        "en": "Open your browser (preferably Chrome).",
+        "ar": "افتح متصفحك (يفضل كروم)."
+    },
+    "installS2": {
+        "en": "Click on the three dots.",
+        "ar": "انقر على النقاط الثلاث."
+    },
+    "installS3": {
+        "en": "Click on install Golden Pens.",
+        "ar": "انقر فوق تثبيت Golden Pens."
+    },
+    "installS4": {
+        "en": "Now you can use it offline!",
+        "ar": "الآن يمكنك استخدامه في وضع عدم الاتصال!"
+    }
+}

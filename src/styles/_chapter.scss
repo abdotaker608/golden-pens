@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Rosa;
+    src: url('../OS Fonts/Rosa/FS\ Rosa\ Regular.ttf');
+}
+
+.write-nc{
+
+    background: darken($lightSilver, 5%);
+    padding: 100px 0;
+
+    form{
+        width: 90%;
+        margin: 60px auto;
+
+        .invalid-feedback{
+            text-align: start;
+        }
+
+        button{
+            @include btn($primaryColor);
+            min-width: 80px;
+        }
+    }
+}
+
+.chapter-container{
+    width: 90%;
+    margin: 30px 0;
+
+    // @include media(1100px){
+    //     width: 750px;
+    // }
+
+    .info-container{
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid silver;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+        @include media(576px){
+            text-align: start;
+            flex-direction: row;
+        }
+        a{
+            text-decoration: none;
+            color: #343A40;
+            transition: 150ms ease-out;
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+
+        h2{
+            color: #343A40;
+            max-width: 300px;
+            overflow: hidden;
+            font-weight: bold;
+            overflow: hidden;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+
+        h6{
+            color: grey;
+            font-size: 14px;
+        }
+
+        .author-container{
+            margin-top: 20px;
+            h6{
+                color: inherit;
+            }
+        }
+    }
+
+    .content{
+        margin-top: 40px;
+        font-family: Rosa, 'sans-serif';
+        p{
+            color: grey;
+        }
+    }
+
+    .btns{
+        margin-top: 50px;
+        a{
+            font-weight: bold;
+            cursor: pointer;
+            transition: 150ms ease-out;
+            text-decoration: none;
+            color: #343A40;
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+    }
+
+    .d-link{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        transition: 150ms ease-out;
+        font-weight: bold;
+        &:not(:last-child){
+            border-bottom: 1px solid silver;
+        }
+        &:hover{
+            background: darken($lightSilver, 5%);
+        }
+    }
+}
+
+.loves-container{
+    border-top: 1px solid silver;
+
+    >div{
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    span{
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: $primaryColor;
+        transition: 250ms ease-out;
+        border: 2px solid $primaryColor;
+        margin: 0 10px;
+        cursor: pointer;
+        @include centerIt;
+
+        &:hover, &.active{
+            background: $primaryColor;
+            color: white;
+        }
+    }
+}
+
+.reply-container{
+    margin-top: 10px;
+
+    h3{
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    button.processing{
+        @include btn($primaryColor);
+        min-width: 80px;
+        margin: 15px 0 0 0 !important;
+    }
+
+    .replies-container{
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px solid silver;
+    }
+
+    .s-m{
+        color: $primaryColor;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 150ms ease-out;
+        &:hover{
+            color: darken($primaryColor, 10%);
+        }
+    }
+}
+
+.pumped {
+    animation: pump 200ms ease-out forwards running;
+}

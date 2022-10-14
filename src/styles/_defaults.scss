@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section{
+    margin-top: 70px;
+
+    h2{
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}
+
+
+input.form-control, select.form-select, textarea.form-control{
+    direction: auto !important;
+    &:focus{
+        box-shadow: 0 0 0 3px transparentize($primaryColor, .5);
+        border-color: $primaryColor;
+    }
+}
+
+input.form-control{
+    padding: 10px;
+}
+
+select.form-select{
+    height: 45px;
+}
+
+.popover{
+    .popover-header{
+        background: $primaryColor;
+        color: white;
+    }
+}
+
+.spinner.spinner-border{
+    border-color: $primaryColor;
+    border-bottom: none;
+}

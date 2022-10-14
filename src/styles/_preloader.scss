@@ -1,0 +1,13 @@
+.preloader{
+    @include centerIt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(207, 203, 203, .4);
+
+    .spinner-grow{
+        background-color: $primaryColor;
+    }
+}
